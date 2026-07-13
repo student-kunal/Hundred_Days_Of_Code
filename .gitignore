@@ -1,0 +1,12 @@
+*.exe
+*.o
+*.obj
+*.out
+*.pdb
+__pycache__/
+/build/
+/info.txt
+/output.txt
+/students.txt
+/data.txt
+/destination.txt
