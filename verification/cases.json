@@ -1,0 +1,1416 @@
+{
+  "1": {
+    "extra": [
+      {
+        "input": "-4 4",
+        "output": "Sum = 0"
+      }
+    ]
+  },
+  "2": {
+    "extra": [
+      {
+        "input": "5 0",
+        "output": "Sum=5, Diff=5, Product=0, Quotient=undefined"
+      }
+    ]
+  },
+  "3": {
+    "extra": [
+      {
+        "input": "0 8",
+        "output": "Area=0, Perimeter=16"
+      }
+    ]
+  },
+  "4": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "Area=0.00, Circumference=0.00"
+      },
+      {
+        "input": "7",
+        "output": "Area=153.94, Circumference=43.98"
+      }
+    ]
+  },
+  "5": {
+    "extra": [
+      {
+        "input": "-40",
+        "output": "Fahrenheit=-40"
+      }
+    ]
+  },
+  "6": {
+    "extra": [
+      {
+        "input": "9 9",
+        "output": "After swap: 9 9"
+      }
+    ]
+  },
+  "7": {
+    "extra": [
+      {
+        "input": "-5 0",
+        "output": "After swap: 0 -5"
+      },
+      {
+        "input": "-2147483648 2147483647",
+        "output": "After swap: 2147483647 -2147483648"
+      }
+    ]
+  },
+  "8": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "Sum=0"
+      }
+    ]
+  },
+  "9": {
+    "extra": [
+      {
+        "input": "2500 0 2",
+        "output": "Simple Interest=0, Compound Interest=0"
+      },
+      {
+        "input": "5000 7 3",
+        "output": "Simple Interest=1050, Compound Interest=1125.22"
+      }
+    ]
+  },
+  "10": {
+    "extra": [
+      {
+        "input": "60",
+        "output": "0:1:0"
+      }
+    ]
+  },
+  "11": {
+    "extra": [
+      {
+        "input": "-3",
+        "output": "-3 is odd"
+      }
+    ]
+  },
+  "12": {
+    "extra": [
+      {
+        "input": "23",
+        "output": "Positive"
+      }
+    ]
+  },
+  "13": {
+    "extra": [
+      {
+        "input": "2100",
+        "output": "Not a leap year"
+      }
+    ]
+  },
+  "14": {
+    "extra": [
+      {
+        "input": "E",
+        "output": "Vowel"
+      }
+    ]
+  },
+  "15": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "Digit"
+      }
+    ]
+  },
+  "16": {
+    "extra": [
+      {
+        "input": "4 4 2",
+        "output": "Largest is 4"
+      }
+    ]
+  },
+  "17": {
+    "extra": [
+      {
+        "input": "0 1 5",
+        "output": "Not a quadratic equation"
+      }
+    ]
+  },
+  "18": {
+    "extra": [
+      {
+        "input": "89.5",
+        "output": "Grade B"
+      }
+    ]
+  },
+  "19": {
+    "extra": [
+      {
+        "input": "1 2 3",
+        "output": "Invalid triangle"
+      }
+    ]
+  },
+  "20": {
+    "extra": [
+      {
+        "input": "7",
+        "output": "Sunday"
+      }
+    ]
+  },
+  "21": {
+    "extra": [
+      {
+        "input": "4",
+        "output": "April, 30 days"
+      }
+    ]
+  },
+  "22": {
+    "extra": [
+      {
+        "input": "80 60",
+        "output": "Loss 25%"
+      }
+    ]
+  },
+  "23": {
+    "extra": [
+      {
+        "input": "30",
+        "output": "Fine ₹150"
+      }
+    ]
+  },
+  "24": {
+    "extra": [
+      {
+        "input": "301",
+        "output": "Bill: ₹2212"
+      }
+    ]
+  },
+  "25": {
+    "extra": [
+      {
+        "input": "1 0 /",
+        "output": "undefined"
+      }
+    ]
+  },
+  "26": {
+    "extra": [
+      {
+        "input": "0",
+        "output": ""
+      }
+    ]
+  },
+  "27": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  "28": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "1"
+      },
+      {
+        "input": "100",
+        "output": "Overflow"
+      }
+    ]
+  },
+  "29": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "1"
+      },
+      {
+        "input": "21",
+        "output": "Overflow"
+      }
+    ]
+  },
+  "30": {
+    "extra": [
+      {
+        "input": "-120",
+        "output": "-21"
+      }
+    ]
+  },
+  "31": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  "32": {
+    "extra": [
+      {
+        "input": "-121",
+        "output": "Not palindrome"
+      }
+    ]
+  },
+  "33": {
+    "extra": [
+      {
+        "input": "9474",
+        "output": "Armstrong"
+      }
+    ]
+  },
+  "34": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "Not prime"
+      }
+    ]
+  },
+  "35": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "1"
+      }
+    ]
+  },
+  "36": {
+    "extra": [
+      {
+        "input": "0 -12",
+        "output": "12"
+      },
+      {
+        "input": "-2147483648 0",
+        "output": "2147483648"
+      }
+    ]
+  },
+  "37": {
+    "extra": [
+      {
+        "input": "0 0",
+        "output": "0"
+      }
+    ]
+  },
+  "38": {
+    "extra": [
+      {
+        "input": "-109",
+        "output": "10"
+      }
+    ]
+  },
+  "39": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "1 (no odd digits, assume 1)"
+      }
+    ]
+  },
+  "40": {
+    "extra": [
+      {
+        "input": "00101",
+        "output": "11010"
+      }
+    ]
+  },
+  "41": {
+    "extra": [
+      {
+        "input": "1200",
+        "output": "201"
+      }
+    ]
+  },
+  "42": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "Not perfect number"
+      }
+    ]
+  },
+  "43": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "Not strong number"
+      }
+    ]
+  },
+  "44": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "Approximate sum: 1.0"
+      },
+      {
+        "input": "3",
+        "output": "Approximate sum: 2.6"
+      }
+    ]
+  },
+  "45": {
+    "extra": [
+      {
+        "input": "1",
+        "output": "Approximate sum: 0.67"
+      },
+      {
+        "input": "3",
+        "output": "Approximate sum: 1.78"
+      },
+      {
+        "input": "5",
+        "output": "Approximate sum: 2.84"
+      }
+    ]
+  },
+  "46": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "*****\n*****\n*****\n*****\n*****"
+      }
+    ]
+  },
+  "47": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "*\n**\n***\n****\n*****"
+      }
+    ]
+  },
+  "48": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "1\n12\n123\n1234\n12345"
+      }
+    ]
+  },
+  "49": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "5\n45\n345\n2345\n12345"
+      }
+    ]
+  },
+  "50": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "*****\n ****\n  ***\n   **\n    *"
+      }
+    ]
+  },
+  "51": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "    5\n   45\n  345\n 2345\n12345"
+      }
+    ]
+  },
+  "52": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "*\n\n*\n*\n*\n\n*\n*\n*\n*\n*\n\n*\n*\n*\n\n*"
+      }
+    ]
+  },
+  "53": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "*\n***\n*****\n*******\n*********\n*******\n*****\n***\n*"
+      }
+    ]
+  },
+  "54": {
+    "extra": [
+      {
+        "input": "ignored input\n",
+        "output": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *"
+      }
+    ]
+  },
+  "55": {
+    "extra": [
+      {
+        "input": "1",
+        "output": ""
+      }
+    ]
+  },
+  "56": {
+    "extra": [
+      {
+        "input": "0",
+        "output": ""
+      }
+    ]
+  },
+  "57": {
+    "extra": [
+      {
+        "input": "2\n-5 5",
+        "output": "0"
+      }
+    ]
+  },
+  "58": {
+    "extra": [
+      {
+        "input": "1\n-7",
+        "output": "Max=-7, Min=-7"
+      }
+    ]
+  },
+  "59": {
+    "extra": [
+      {
+        "input": "3\n-3 -2 0",
+        "output": "Even=2, Odd=1"
+      }
+    ]
+  },
+  "60": {
+    "extra": [
+      {
+        "input": "3\n0 0 0",
+        "output": "Positive=0, Negative=0, Zero=3"
+      }
+    ]
+  },
+  "61": {
+    "extra": [
+      {
+        "input": "3\n2 2 2\n2",
+        "output": "Found at index 0"
+      }
+    ]
+  },
+  "62": {
+    "extra": [
+      {
+        "input": "1\n5",
+        "output": "5"
+      }
+    ]
+  },
+  "63": {
+    "extra": [
+      {
+        "input": "0\n2\n-1 0",
+        "output": "-1 0"
+      }
+    ]
+  },
+  "64": {
+    "extra": [
+      {
+        "input": "0",
+        "output": "0"
+      }
+    ]
+  },
+  "65": {
+    "extra": [
+      {
+        "input": "0\n10",
+        "output": "-1"
+      }
+    ]
+  },
+  "66": {
+    "extra": [
+      {
+        "input": "0\n4",
+        "output": "4"
+      }
+    ]
+  },
+  "67": {
+    "extra": [
+      {
+        "input": "1\n4\n0 8",
+        "output": "8 4"
+      }
+    ]
+  },
+  "68": {
+    "extra": [
+      {
+        "input": "1\n7\n0",
+        "output": ""
+      }
+    ]
+  },
+  "69": {
+    "extra": [
+      {
+        "input": "3\n2 2 2",
+        "output": "No second largest"
+      },
+      {
+        "input": "4\n4 4 3 3",
+        "output": "3"
+      }
+    ]
+  },
+  "70": {
+    "extra": [
+      {
+        "input": "3\n1 2 3\n-1",
+        "output": "2 3 1"
+      }
+    ]
+  },
+  "71": {
+    "extra": [
+      {
+        "input": "1 1\n-8",
+        "output": "-8"
+      }
+    ]
+  },
+  "72": {
+    "extra": [
+      {
+        "input": "1 2\n-4 4",
+        "output": "0"
+      }
+    ]
+  },
+  "73": {
+    "extra": [
+      {
+        "input": "2 1\n-5 0",
+        "output": "-5 0"
+      }
+    ]
+  },
+  "74": {
+    "extra": [
+      {
+        "input": "1 3\n4 5 6",
+        "output": "4\n5\n6"
+      }
+    ]
+  },
+  "75": {
+    "extra": [
+      {
+        "input": "1 1\n-4\n1 1\n4",
+        "output": "0"
+      }
+    ]
+  },
+  "76": {
+    "extra": [
+      {
+        "input": "1 2\n4 5",
+        "output": "False"
+      }
+    ]
+  },
+  "77": {
+    "extra": [
+      {
+        "input": "1 1\n-1",
+        "output": "True"
+      }
+    ]
+  },
+  "78": {
+    "extra": [
+      {
+        "input": "1 1\n-7",
+        "output": "-7"
+      }
+    ]
+  },
+  "79": {
+    "extra": [
+      {
+        "input": "2 3\n1 2 3\n4 5 6",
+        "output": "1 2 4 5 3 6"
+      },
+      {
+        "input": "3 1\n1 2 3",
+        "output": "1 2 3"
+      }
+    ]
+  },
+  "80": {
+    "extra": [
+      {
+        "input": "1 2\n-1 2\n2 1\n3 0",
+        "output": "-3"
+      }
+    ]
+  },
+  "81": {
+    "extra": [
+      {
+        "input": "\n",
+        "output": "0"
+      }
+    ]
+  },
+  "82": {
+    "extra": [
+      {
+        "input": " \n",
+        "output": " "
+      }
+    ]
+  },
+  "83": {
+    "extra": [
+      {
+        "input": "A1! z",
+        "output": "Vowels=1, Consonants=1"
+      }
+    ]
+  },
+  "84": {
+    "extra": [
+      {
+        "input": "xYz-9",
+        "output": "XYZ-9"
+      }
+    ]
+  },
+  "85": {
+    "extra": [
+      {
+        "input": "a b",
+        "output": "b a"
+      }
+    ]
+  },
+  "86": {
+    "extra": [
+      {
+        "input": "\n",
+        "output": "Palindrome"
+      }
+    ]
+  },
+  "87": {
+    "extra": [
+      {
+        "input": " \t!0",
+        "output": "Spaces=1, Digits=1, Special=2"
+      }
+    ]
+  },
+  "88": {
+    "extra": [
+      {
+        "input": "  a ",
+        "output": "--a-"
+      }
+    ]
+  },
+  "89": {
+    "extra": [
+      {
+        "input": "a a b\n ",
+        "output": "2"
+      }
+    ]
+  },
+  "90": {
+    "extra": [
+      {
+        "input": "Z9!a",
+        "output": "z9!A"
+      }
+    ]
+  },
+  "91": {
+    "extra": [
+      {
+        "input": "AEIOU",
+        "output": ""
+      }
+    ]
+  },
+  "92": {
+    "extra": [
+      {
+        "input": "abccba",
+        "output": "a"
+      }
+    ]
+  },
+  "93": {
+    "extra": [
+      {
+        "input": "aaab\naabb",
+        "output": "Not anagrams"
+      }
+    ]
+  },
+  "94": {
+    "extra": [
+      {
+        "input": " a bb cc ",
+        "output": "bb"
+      }
+    ]
+  },
+  "95": {
+    "extra": [
+      {
+        "input": "\n\n",
+        "output": "Rotation"
+      }
+    ]
+  },
+  "96": {
+    "extra": [
+      {
+        "input": "  ab\tcd ",
+        "output": "  ba\tdc "
+      }
+    ]
+  },
+  "97": {
+    "extra": [
+      {
+        "input": "  mary   jane",
+        "output": "M.J."
+      }
+    ]
+  },
+  "98": {
+    "extra": [
+      {
+        "input": "Lee",
+        "output": "Lee"
+      }
+    ]
+  },
+  "99": {
+    "extra": [
+      {
+        "input": "29/02/2000",
+        "output": "29-Feb-2000"
+      }
+    ]
+  },
+  "100": {
+    "extra": [
+      {
+        "input": "\n",
+        "output": ""
+      }
+    ]
+  },
+  "101": {
+    "extra": [
+      {
+        "input": "nums = [], target = 7",
+        "output": "-1,-1"
+      }
+    ]
+  },
+  "102": {
+    "extra": [
+      {
+        "input": "arr = [-3,-3,2], x = -3",
+        "output": "0"
+      }
+    ]
+  },
+  "103": {
+    "extra": [
+      {
+        "input": "nums = [0]",
+        "output": "0"
+      }
+    ]
+  },
+  "104": {
+    "extra": [
+      {
+        "input": "n = 49",
+        "output": "35"
+      }
+    ]
+  },
+  "105": {
+    "extra": [
+      {
+        "input": "nums = []",
+        "output": "-1"
+      }
+    ]
+  },
+  "106": {
+    "extra": [
+      {
+        "input": "arr = [2,2]",
+        "output": "-1, -1"
+      }
+    ]
+  },
+  "107": {
+    "extra": [
+      {
+        "input": "arr = [2,2]",
+        "output": "-1, -1"
+      }
+    ]
+  },
+  "108": {
+    "extra": [
+      {
+        "input": "nums = [0,5,0]",
+        "output": "[0,0,0]"
+      },
+      {
+        "input": "nums = [8]",
+        "output": "[1]"
+      }
+    ]
+  },
+  "109": {
+    "extra": [
+      {
+        "input": "arr = [-3,-4,-1], k = 2",
+        "output": "-5"
+      },
+      {
+        "input": "arr[-3] = , k = 1",
+        "output": "-3"
+      }
+    ]
+  },
+  "110": {
+    "extra": [
+      {
+        "input": "arr = [-7,-2,-3], k = 3",
+        "output": "-2"
+      }
+    ]
+  },
+  "111": {
+    "extra": [
+      {
+        "input": "arr[] = [0,-3,1], k = 1",
+        "output": "0 -3 0"
+      }
+    ]
+  },
+  "112": {
+    "extra": [
+      {
+        "input": "arr[] = [-5,0,-9]",
+        "output": "0"
+      }
+    ]
+  },
+  "113": {
+    "extra": [
+      {
+        "input": "arr[] = [-1,-1,2], k = 2",
+        "output": "-1"
+      }
+    ]
+  },
+  "114": {
+    "extra": [
+      {
+        "input": "s = \"\"",
+        "output": "0"
+      }
+    ]
+  },
+  "115": {
+    "extra": [
+      {
+        "input": "s = \"\", t = \"\"",
+        "output": "Anagram"
+      }
+    ]
+  },
+  "116": {
+    "extra": [
+      {
+        "input": "nums = [1,2], target = 9",
+        "output": "-1 -1"
+      }
+    ]
+  },
+  "117": {
+    "extra": [
+      {
+        "input": "nums1 = [] nums2 = [1,3]",
+        "output": "1 3"
+      }
+    ]
+  },
+  "118": {
+    "extra": [
+      {
+        "input": "nums1 = []",
+        "output": "0"
+      }
+    ]
+  },
+  "119": {
+    "extra": [
+      {
+        "input": "nums1 = [-3,5,-3]",
+        "output": "-3"
+      }
+    ]
+  },
+  "120": {
+    "extra": [
+      {
+        "input": "str = HELLO   wORLD!",
+        "output": "Hello   World!"
+      },
+      {
+        "input": "str = Good morning.",
+        "output": "Good Morning."
+      }
+    ]
+  },
+  "121": {
+    "extra": [
+      {
+        "input": "Name: Li Chen, Age: 0",
+        "output": "File created successfully! Data written to info.txt",
+        "writes": {
+          "info.txt": "Name: Li Chen\nAge: 0"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "writes": {
+          "info.txt": "Name: Rahul\nAge: 23"
+        }
+      }
+    }
+  },
+  "122": {
+    "extra": [
+      {
+        "input": "",
+        "output": "",
+        "files": {
+          "info.txt": ""
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "",
+        "files": {
+          "info.txt": "Name: Rahul\nAge: 23"
+        }
+      }
+    }
+  },
+  "123": {
+    "extra": [
+      {
+        "input": "",
+        "output": "Characters: 0\nWords: 0\nLines: 0",
+        "files": {
+          "sample.txt": ""
+        }
+      },
+      {
+        "input": "",
+        "output": "Characters: 33\nWords: 6\nLines: 2",
+        "files": {
+          "sample.txt": "Hello world\nThis is C programming"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "",
+        "files": {
+          "sample.txt": "Hello world\nThis is C programming"
+        }
+      }
+    }
+  },
+  "124": {
+    "extra": [
+      {
+        "input": "blank file.txt\ncopy.txt\n",
+        "output": "File copied successfully to copy.txt",
+        "files": {
+          "blank file.txt": ""
+        },
+        "writes": {
+          "copy.txt": ""
+        }
+      },
+      {
+        "input": "in.bin\nout.bin",
+        "output": "File copied successfully to out.bin",
+        "files": {
+          "in.bin": "A\u0000\nB\r\n"
+        },
+        "bytes_written": {
+          "out.bin": "41000a420d0a",
+          "in.bin": "41000a420d0a"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "source.txt\ndestination.txt\n",
+        "files": {
+          "source.txt": "Learning C File Handling"
+        },
+        "writes": {
+          "destination.txt": "Learning C File Handling",
+          "source.txt": "Learning C File Handling"
+        }
+      }
+    }
+  },
+  "125": {
+    "extra": [
+      {
+        "input": "B",
+        "output": "File updated successfully with appended text.",
+        "files": {
+          "data.txt": "A\n"
+        },
+        "writes": {
+          "data.txt": "A\nB"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "This is appended text.\n",
+        "files": {
+          "data.txt": "Hello world"
+        },
+        "writes": {
+          "data.txt": "Hello world\nThis is appended text."
+        }
+      }
+    }
+  },
+  "126": {
+    "extra": [
+      {
+        "input": "present.txt\n",
+        "output": "File opened successfully.\nOne\nTwo",
+        "files": {
+          "present.txt": "One\nTwo"
+        }
+      },
+      {
+        "input": "missing.txt",
+        "output": "Error: File does not exist!"
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "sample.txt",
+        "files": {
+          "sample.txt": "Fixture text"
+        },
+        "uncheckable": "The example gives no file bytes and uses a prose placeholder for the displayed content. A representative file was opened."
+      },
+      "2": {
+        "input": "nofile.txt"
+      }
+    }
+  },
+  "127": {
+    "extra": [
+      {
+        "input": "",
+        "output": "",
+        "files": {
+          "input.txt": "123 aZ!"
+        },
+        "writes": {
+          "output.txt": "123 AZ!"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "",
+        "files": {
+          "input.txt": "Hello World\nC programming"
+        },
+        "output": "",
+        "writes": {
+          "output.txt": "HELLO WORLD\nC PROGRAMMING"
+        }
+      }
+    }
+  },
+  "128": {
+    "extra": [
+      {
+        "input": "",
+        "output": "Vowels: 0\nConsonants: 0",
+        "files": {
+          "text.txt": "1, 2!"
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "",
+        "files": {
+          "text.txt": "Welcome to C language"
+        }
+      }
+    }
+  },
+  "129": {
+    "extra": [
+      {
+        "input": "",
+        "output": "Sum = 0\nAverage = undefined",
+        "files": {
+          "numbers.txt": ""
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "",
+        "files": {
+          "numbers.txt": "10 20 30 40 50"
+        }
+      }
+    }
+  },
+  "130": {
+    "extra": [
+      {
+        "input": "0\n",
+        "output": "",
+        "writes": {
+          "students.txt": ""
+        }
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "2\nAsha 101 85\nRavi 102 92",
+        "writes": {
+          "students.txt": "Asha 101 85\nRavi 102 92"
+        }
+      }
+    }
+  },
+  "131": {
+    "extra": [
+      {
+        "input": "input ignored",
+        "output": "SUNDAY = 0\nMONDAY = 1\nTUESDAY = 2\nWEDNESDAY = 3\nTHURSDAY = 4\nFRIDAY = 5\nSATURDAY = 6"
+      }
+    ]
+  },
+  "132": {
+    "extra": [
+      {
+        "input": "YELLOW",
+        "output": "Wait"
+      },
+      {
+        "input": "RED",
+        "output": "Stop"
+      }
+    ]
+  },
+  "133": {
+    "extra": [
+      {
+        "input": "APR",
+        "output": "30 days"
+      }
+    ]
+  },
+  "134": {
+    "extra": [
+      {
+        "input": "TIMEOUT",
+        "output": "Operation timed out"
+      },
+      {
+        "input": "SUCCESS",
+        "output": "Operation succeeded"
+      }
+    ]
+  },
+  "135": {
+    "extra": [
+      {
+        "input": "input ignored",
+        "output": "A=10\nB=11\nC=12"
+      }
+    ]
+  },
+  "136": {
+    "extra": [
+      {
+        "input": "SUBTRACT -1 -2",
+        "output": "1"
+      },
+      {
+        "input": "MULTIPLY -3 4",
+        "output": "-12"
+      }
+    ]
+  },
+  "137": {
+    "extra": [
+      {
+        "input": "ADMIN",
+        "output": "Welcome Admin!"
+      },
+      {
+        "input": "USER",
+        "output": "Welcome User!"
+      }
+    ]
+  },
+  "138": {
+    "extra": [
+      {
+        "input": "input ignored",
+        "output": "RED=0\nYELLOW=1\nGREEN=2"
+      }
+    ]
+  },
+  "139": {
+    "extra": [
+      {
+        "input": "input ignored",
+        "output": "SUCCESS=0, FAILURE=1, TIMEOUT=2"
+      }
+    ]
+  },
+  "140": {
+    "extra": [
+      {
+        "input": "Gender=OTHER",
+        "output": "Other"
+      },
+      {
+        "input": "Gender=FEMALE",
+        "output": "Female"
+      }
+    ]
+  },
+  "141": {
+    "extra": [
+      {
+        "input": "Name: Li Chen\nRoll: 1\nMarks: 87.5",
+        "output": "Name: Li Chen | Roll: 1 | Marks: 87.5"
+      }
+    ]
+  },
+  "142": {
+    "extra": [
+      {
+        "input": "Ana 1 0\nBo 2 1\nCal 3 2\nDi 4 3\nEve 5 4",
+        "output": "Name\tRoll\tMarks\nAna\t1\t0\nBo\t2\t1\nCal\t3\t2\nDi\t4\t3\nEve\t5\t4"
+      }
+    ],
+    "samples": {
+      "1": {
+        "uncheckable": "The source supplies no five records or expected table cells. Its literal description was attempted. The additional case checks a complete table."
+      }
+    }
+  },
+  "143": {
+    "extra": [
+      {
+        "input": "2\nA 1 90\nB 2 90",
+        "output": "Topper: A (Marks: 90)"
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "3\nRavi 101 95\nSita 102 85\nAman 103 88"
+      }
+    }
+  },
+  "144": {
+    "extra": [
+      {
+        "input": "Student: Jo 1 0",
+        "output": "Name: Jo | Roll: 1 | Marks: 0"
+      }
+    ]
+  },
+  "145": {
+    "extra": [
+      {
+        "input": "1\nIra 7 99.5",
+        "output": "Top Student: Ira | Roll: 7 | Marks: 99.5"
+      }
+    ],
+    "samples": {
+      "1": {
+        "input": "3\nRiya 101 89\nKaran 102 96\nMeena 103 92"
+      }
+    }
+  },
+  "146": {
+    "extra": [
+      {
+        "input": "Employee: Li Chen | ID: 2 | Joining Date: 1 2 2003",
+        "output": "Name: Li Chen | ID: 2 | Joining Date: 01/02/2003"
+      }
+    ]
+  }
+}

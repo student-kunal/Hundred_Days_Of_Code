@@ -1,0 +1,4601 @@
+{
+  "compiler": "gcc (Rev7, Built by MSYS2 project) 16.2.0",
+  "checkpoints": [
+    {
+      "day": 10,
+      "programs": 20,
+      "clean": 20,
+      "extra_passed": 23,
+      "sample_failed": 2,
+      "sample_passed": 46
+    },
+    {
+      "day": 20,
+      "programs": 40,
+      "clean": 40,
+      "extra_passed": 46,
+      "sample_failed": 2,
+      "sample_passed": 91
+    },
+    {
+      "day": 30,
+      "programs": 60,
+      "clean": 60,
+      "extra_passed": 69,
+      "sample_failed": 8,
+      "sample_passed": 116
+    },
+    {
+      "day": 40,
+      "programs": 80,
+      "clean": 80,
+      "extra_passed": 91,
+      "sample_failed": 8,
+      "sample_passed": 141
+    },
+    {
+      "day": 50,
+      "programs": 100,
+      "clean": 100,
+      "extra_passed": 111,
+      "sample_failed": 8,
+      "sample_passed": 165
+    },
+    {
+      "day": 60,
+      "programs": 110,
+      "clean": 110,
+      "extra_passed": 123,
+      "sample_failed": 8,
+      "sample_passed": 196
+    },
+    {
+      "day": 70,
+      "programs": 120,
+      "clean": 120,
+      "extra_passed": 134,
+      "sample_failed": 9,
+      "sample_passed": 223
+    },
+    {
+      "day": 80,
+      "programs": 130,
+      "clean": 130,
+      "extra_passed": 147,
+      "sample_failed": 10,
+      "sample_passed": 232,
+      "sample_untested": 1
+    },
+    {
+      "day": 90,
+      "programs": 140,
+      "clean": 140,
+      "extra_passed": 162,
+      "sample_failed": 10,
+      "sample_passed": 242,
+      "sample_untested": 1
+    },
+    {
+      "day": 96,
+      "programs": 146,
+      "clean": 146,
+      "extra_passed": 168,
+      "sample_failed": 10,
+      "sample_passed": 247,
+      "sample_untested": 2
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "day": 1,
+      "compiled": true,
+      "clean": true,
+      "sha256": "cc6365e9c3f604eddfd06be233c898223b64df7ba6eb127a7b9e4f0aa95c5cf7",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "day": 1,
+      "compiled": true,
+      "clean": true,
+      "sha256": "1d1b4ef3414f1588b01f85a69c37d33a1b358c93c430bc0dadb3a2672ca5053a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "day": 2,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d6d0b1c68445124584628a456227f099ce7af5bff2a65653b7ef39f03fa94ed8",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "day": 2,
+      "compiled": true,
+      "clean": true,
+      "sha256": "3e2df83c3420f9b1d1dee578286cf2a7dbda1806586229d56ef9c76584597f80",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Area=153.94, Circumference=43.96",
+              "actual": "Area=153.94, Circumference=43.98\r\n"
+            }
+          }
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "day": 3,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fc334dc1e96a0a7200c0e7815ade1bd60d73b24ac475654a79541eb3664acfb4",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "day": 3,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d2be84c81a938710cbd4829793ff7b7c459777f13addcf9ce439bb7a7960b2b0",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "day": 4,
+      "compiled": true,
+      "clean": true,
+      "sha256": "cf42d3f4b0dfe7f670db1bc460ff775bd91e0c9f55cac520368fdd98960f32aa",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "day": 4,
+      "compiled": true,
+      "clean": true,
+      "sha256": "cf56261995899a72354bda71084b12143228b602fcee1f2315953c3a3a766d38",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "day": 5,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c78ea61bf58f4dc9698e5b0fa12623da2166d8b7eb5336ba73e86bc8b0fc524d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Simple Interest=1050, Compound Interest=1125.76",
+              "actual": "Simple Interest=1050, Compound Interest=1125.22\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "day": 5,
+      "compiled": true,
+      "clean": true,
+      "sha256": "12a40ef51c36d4ab69282038583e9529dc5dbdce03c1ddb220c20c5b3a885772",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "day": 6,
+      "compiled": true,
+      "clean": true,
+      "sha256": "b27a27746e9f20538c2fc5b983a80d7ab8f1fcd6f3b3ede4103144a2eee5d86e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "day": 6,
+      "compiled": true,
+      "clean": true,
+      "sha256": "4a6351318f476e480371745b8d7846524c983654e7684683674f52fe26eb686b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "day": 7,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e73f6acb20c1b812e17568769182b80409dd856815f535b2a5b940f335c9e691",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "day": 7,
+      "compiled": true,
+      "clean": true,
+      "sha256": "4747ac91d860b0929b076958c56b7012fb86b293fdb026ea0f1a3eca9b5eaaff",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "day": 8,
+      "compiled": true,
+      "clean": true,
+      "sha256": "82809e112acd9ff775eebdd85f912eb96149e850223db1cd089b5b8ed6aa8654",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "day": 8,
+      "compiled": true,
+      "clean": true,
+      "sha256": "36ec54a86268c0669983e582ab5d3aace67882c163fc73fc18f92a9148c47827",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "day": 9,
+      "compiled": true,
+      "clean": true,
+      "sha256": "acdbf7870c16975d43210a1eaffff4052485724027765fcc9397a029b7c35d5d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "day": 9,
+      "compiled": true,
+      "clean": true,
+      "sha256": "35b597a39f262dbf4ae4dc0477ae4dcfeed557fce63c099dcfc0f5d0e22ffe68",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "day": 10,
+      "compiled": true,
+      "clean": true,
+      "sha256": "1bf1de359afe996081b76238235088c46c8faf7d0f94fa9cb7a8582db00c6b95",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "day": 10,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f99ede39ccd871f04530d3e9cb5a313de34b63ee2b5e32add0a827354ac36a55",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "day": 11,
+      "compiled": true,
+      "clean": true,
+      "sha256": "47d50eb20f03bdce3f6d7226396fc1d4b86cb258dda85ff2c8b57daafbeece24",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "day": 11,
+      "compiled": true,
+      "clean": true,
+      "sha256": "56347a6dfe5db54d4fd23c9c11bdf8704d3bcbbbc98af88ec349465792af9e98",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "day": 12,
+      "compiled": true,
+      "clean": true,
+      "sha256": "28389a9cac66737cde8009c22e3a645ec7a3cde5715ef490627ecd1e7511d892",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "day": 12,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d6617992b6d10831ab0f783d5f399868d8111b0daac08d631ad6aab49695e681",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "day": 13,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e238bdfc3438ae96c7acea8456fd300e74364ee8f156aec987c3465715410b29",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "day": 13,
+      "compiled": true,
+      "clean": true,
+      "sha256": "a5c35c24095f273bc0a80ccbc79e5afe9371869ca81febe030f99f328662a079",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "day": 14,
+      "compiled": true,
+      "clean": true,
+      "sha256": "cc6d63b29050c6f7590fdeded077e3208e5e32b905c36acb3be247137a125c2d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "day": 14,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d5bea65feaa18d87225fe77f58d002d5d135068ce3e733c0c75ca6b47e5a27eb",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "day": 15,
+      "compiled": true,
+      "clean": true,
+      "sha256": "6e40172be2e14b1732a1fa833bbad50e7bff67f0f74c36fcf140094fe25b1f72",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "day": 15,
+      "compiled": true,
+      "clean": true,
+      "sha256": "83abcd81b92f74851ac52aefcb9f3ed0f54843c5a1be11988a5a4954e5382344",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "day": 16,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d2a245b69c8dbc00b5ec520692b3b9eddb728893c076f2cc0da86e4604823ce2",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "day": 16,
+      "compiled": true,
+      "clean": true,
+      "sha256": "473bfdd61357c0b1f0611bfc4e52b362b358a8b2f4ff1d999d6ddaca1d57ab24",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "day": 17,
+      "compiled": true,
+      "clean": true,
+      "sha256": "68cc130e458bdda88f560ce7f36d8a72015504939c18e1eaddcf038a46dd1a26",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "day": 17,
+      "compiled": true,
+      "clean": true,
+      "sha256": "54d41011076a57bed1f0210c0a2123a8b77329b180adf500288de99a92a89b56",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "day": 18,
+      "compiled": true,
+      "clean": true,
+      "sha256": "a2856a794402eedaa47e82f710759754a06e139f7f4f69b78e13891ce3b64c6c",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "day": 18,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d02a6903d936b0261e9eb6821df36b8956c127e1ef21a538fd2057e4d359ee4a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "day": 19,
+      "compiled": true,
+      "clean": true,
+      "sha256": "495cf488f041d1aa2ec765b37d502c27dae1e6344ade9eca84c4f975b36fe192",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "day": 19,
+      "compiled": true,
+      "clean": true,
+      "sha256": "dd76b21b45ae5621fa05baac0622a9b2f890587578b78c333841367ec014c1a4",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "day": 20,
+      "compiled": true,
+      "clean": true,
+      "sha256": "2a15403d6e2590ae0b7ec0bc1a2d2c6ec7f56450c6614bd74037ebef26d492d9",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "day": 20,
+      "compiled": true,
+      "clean": true,
+      "sha256": "846776944128be9eb38220c14070a13bc1d6abe5014c56c2601bb141fd42bffc",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "day": 21,
+      "compiled": true,
+      "clean": true,
+      "sha256": "962a08e78a42bb522baedb31588b69a80059b1160b99471b6a052598f0f9ee3a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "day": 21,
+      "compiled": true,
+      "clean": true,
+      "sha256": "1c523ddc76f651fc7bab4af3cd44a32cb064cf00cbb861f87238f8b5af1900bd",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "day": 22,
+      "compiled": true,
+      "clean": true,
+      "sha256": "6fa5549ed857abcba1f2b21af56de243cb9208dd444e152ba9562469b1a9cc2f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "day": 22,
+      "compiled": true,
+      "clean": true,
+      "sha256": "2b46cc68f458bc2d2701b50277ff7ae7ad2f8459b831cda242b3ea4327eefde2",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Approximate sum: 3.3",
+              "actual": "Approximate sum: 2.6\r\n"
+            }
+          }
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "day": 23,
+      "compiled": true,
+      "clean": true,
+      "sha256": "927167d01e167b2bc3457b54fa9414ebb210be92600e193a0fe6268d63356530",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Approximate sum: 1.56",
+              "actual": "Approximate sum: 1.78\r\n"
+            }
+          }
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Approximate sum: 2.22",
+              "actual": "Approximate sum: 2.84\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "day": 23,
+      "compiled": true,
+      "clean": true,
+      "sha256": "2acbe16874460fc1121aee39214f6de189f056714b18ea844bafe58c8a365ed7",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "day": 24,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f28c49cbb7052893e60ec9144c3e15ad5d8a67e2450621956a0385e12d633236",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "day": 24,
+      "compiled": true,
+      "clean": true,
+      "sha256": "42eadd2952c7dcff69cf2c2dc9bcaf036d0c7d1ef8f15ae83e6c2c4865fb7609",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "day": 25,
+      "compiled": true,
+      "clean": true,
+      "sha256": "db6c39a530df8cd7aa4087c23ea668d6e919bdadbbcbe7ab7886b2a1bc3325be",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "day": 25,
+      "compiled": true,
+      "clean": true,
+      "sha256": "61463bd5c3bf249e68f0e3297ff488782953cdd7c0f1034f9b4bdb13d5bbcae4",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Note: Spaces indicate indentation.",
+              "actual": "*****\r\n ****\r\n  ***\r\n   **\r\n    *\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "day": 26,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e57cfe980915dc963f31da07c46274d502e780665fc86892b06f1700b370025f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "day": 26,
+      "compiled": true,
+      "clean": true,
+      "sha256": "a4e49b9ce59c84356a9bb1271ff3ea96c5bd8d4e2e232db05b9e4c21efaa35ed",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Pattern with stars spaced irregularly as shown.",
+              "actual": "*\r\n\r\n*\r\n*\r\n*\r\n\r\n*\r\n*\r\n*\r\n*\r\n*\r\n\r\n*\r\n*\r\n*\r\n\r\n*\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "day": 27,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c2b66309bd1a956a528083c0d6c78961f031f9396b424f16ffead36a047bad67",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "day": 27,
+      "compiled": true,
+      "clean": true,
+      "sha256": "56486659868dac0777330ddb37c58e4f59acf5e2f3d72594dd4f942cc8bfb1ef",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Pattern with layers of stars as shown.",
+              "actual": "   *\r\n  ***\r\n *****\r\n*******\r\n *****\r\n  ***\r\n   *\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "day": 28,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c0ffa338146cab3fc212535671fa76abda2df1b36a9a6b6f90c2fd463bf24696",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "day": 28,
+      "compiled": true,
+      "clean": true,
+      "sha256": "08287ef7d236341a1cfb3c217d76f01bbfaca3cfc9bd98527623a581c30f1d88",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "day": 29,
+      "compiled": true,
+      "clean": true,
+      "sha256": "3d3214129e7a68a66031c7baeffe9116af92459e5c2119e8b9c8d3ddb77321cc",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "day": 29,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f835f8b7b543cc75ab1ef593f014e751c5f1297bcce8a4c9bdfb1c0062c00599",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "day": 30,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e8a65fe1048f542c37cf3e687005bdeab34cea1541e9c0c39b92aea6b7e6396b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "day": 30,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fe45f47363f3ef15a9cd0ac89fe4c710a2e0bf45d535d622da972fb82ea4bbbe",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "day": 31,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0d01d7546b0f6e05fc5a21821cc7e6438c4a47c03e719b89a0f979b1ce6b90c2",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "day": 31,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c3a009b285df29e86c66446acdcfd5e0e36a44f9896e623684bd5ad14501cf3a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "day": 32,
+      "compiled": true,
+      "clean": true,
+      "sha256": "cde88212d24f59c7c59546dfa0c1e7c14090c54cdf1929d15e9e3ae199fa3307",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "day": 32,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0bc262b8815f2da4559c0de02c9f680a862bfd7553764f84f7f5d9936794d1e1",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "day": 33,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fcf0db27e4a35ccf9cd94766906156be635aeb1f1a9c02004471938fd45a8e07",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "day": 33,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f94009d9eb6c398f8a8a952e1dbffc682240e3bb78416f26e497675c91b36111",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "day": 34,
+      "compiled": true,
+      "clean": true,
+      "sha256": "9affef093d38a62a16e2bf0406d6c9af875d2fb010b42c688843a5f06529038f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "day": 34,
+      "compiled": true,
+      "clean": true,
+      "sha256": "8949fa685cb14b175012cdf98f72502dea23cc4318533e38abec16a0b892e356",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "day": 35,
+      "compiled": true,
+      "clean": true,
+      "sha256": "746827a677076d30c2f773c1c247819fe1dc710c608ff85d488669d1c8b63327",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "day": 35,
+      "compiled": true,
+      "clean": true,
+      "sha256": "908f29fbd6c2ad2c4d509ef9f3012647c8d2839e040a5e70ea99ac6d6e2a2bc2",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "day": 36,
+      "compiled": true,
+      "clean": true,
+      "sha256": "16b922bca4309bf9c0cbfa0eb41ce03f3c6ac9f7fb145c645102e903476be2f3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "day": 36,
+      "compiled": true,
+      "clean": true,
+      "sha256": "50383762a65e790ccf85680c6a82bf193794236f102510f24720436fb30d9634",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "day": 37,
+      "compiled": true,
+      "clean": true,
+      "sha256": "13260df9a3821a2f777e7d520d24210720978d19c3bf1a46810c3fd6fef50ecc",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "day": 37,
+      "compiled": true,
+      "clean": true,
+      "sha256": "84f39064be46c44e4aaa40ac25ebae917fd5d04051e0aed7a3d89cf6eeec841b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "day": 38,
+      "compiled": true,
+      "clean": true,
+      "sha256": "dcdcbb34711ef6da4ba4410b9931ee501a61c71002524fd89800c931d4000581",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "day": 38,
+      "compiled": true,
+      "clean": true,
+      "sha256": "9eaaa1dcef3dba5c70c0d27663cd2641810815568795825200e5961c5b7f58bf",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "day": 39,
+      "compiled": true,
+      "clean": true,
+      "sha256": "51ab69b0d8c3c8a8ea9c7a690a27bdc75aabe44c337b87899e252fe65e3686a3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "day": 39,
+      "compiled": true,
+      "clean": true,
+      "sha256": "2b42661e2e755d8247c1807f98d999c382ccd10846a4ceca8f8a164d0808a70d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "day": 40,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e47ec1baccb5b3c53b2d4693f0a582d61228bcb3fe83ae7420c554d981b72f55",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "day": 40,
+      "compiled": true,
+      "clean": true,
+      "sha256": "b98cdf3e4585f0ad7dca45887b3c785efa6696fabaf9a6ab218acff8cb5afb86",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "day": 41,
+      "compiled": true,
+      "clean": true,
+      "sha256": "55b3d4a650cd0673fd0220e0fcb42a5e9cdaa2507411f789e268df8b24801208",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "day": 41,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f9c77db8744ac8436fe5743517e96d2fda30fe4e5dfce52210994a73c987cfbf",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "day": 42,
+      "compiled": true,
+      "clean": true,
+      "sha256": "55fda391bac81c6f0ba9b5383a031cd5df52bf7a4640479cc7d9dedfb598eaab",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "day": 42,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0f6c01b070449f2ef16416ad6eb19da1ce00df061a245b3e79e6c2369bd5260b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "day": 43,
+      "compiled": true,
+      "clean": true,
+      "sha256": "dc4f22b999df4dd4523a4b819c1ef104da55c4b4736c9c0e54cf75c21b9345a7",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "day": 43,
+      "compiled": true,
+      "clean": true,
+      "sha256": "023ab2848d9510f2eebb9f7560d124ab974513fff86ac08bb0f9c218bf3dc8fc",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "day": 44,
+      "compiled": true,
+      "clean": true,
+      "sha256": "8b9c2ee777665e2755a9916544c0664d53122a5cf98e9f54e48e1bb10bbe752c",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "day": 44,
+      "compiled": true,
+      "clean": true,
+      "sha256": "98d1fe004bf27e4138bf04646f2b678a822d8b3a39ecf057e112bffe907e5502",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "day": 45,
+      "compiled": true,
+      "clean": true,
+      "sha256": "ee7de1f97175139ff83bf1c3f2fba49a03c9c762e161e0f15449fc028aad4c80",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "day": 45,
+      "compiled": true,
+      "clean": true,
+      "sha256": "4f0cc4470a49b23f5c77acf0e492726c67592110d6fa5dceab708a4962303280",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "day": 46,
+      "compiled": true,
+      "clean": true,
+      "sha256": "82fccbee1d4477a4f77539e3eb61a6f8a074f20da20d4c9f9881b8fbb4f068e1",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "day": 46,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c23e832c9748c2be5daa6950edd3fd83cd232485d5be2b0c01be252489174311",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "day": 47,
+      "compiled": true,
+      "clean": true,
+      "sha256": "faad34ef60045fe1d07b69ad1a5e69c18ab935f921ecd640df0e1a4bff942529",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "day": 47,
+      "compiled": true,
+      "clean": true,
+      "sha256": "151c8d1b178edccc5105d02ccbf78e4946da174365aa4954a1bb4d4056339d5d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "day": 48,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fbf9abf958c286c2f941e0bab79a242b88d1be559e49e3cb439fd5c3bc5e8a36",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "day": 48,
+      "compiled": true,
+      "clean": true,
+      "sha256": "73728f8dc6c47d775ea80d5d2547ddbefe239d5e5a3c9c41a88fd60d1c988e48",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "day": 49,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c844e12527aaa8b072aaa7f7ea2178eba3d754a5bb4b121c436fa738a5e84dc6",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "day": 49,
+      "compiled": true,
+      "clean": true,
+      "sha256": "734ad82f880eaae7f82d6feacd7056d221cd1e3dfa2dd8044eafbfbe5fe1ddcf",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "day": 50,
+      "compiled": true,
+      "clean": true,
+      "sha256": "81ef9e3cf385d9a5d07ecb940a56c69e168efdd88f2fa80d2c63cfa7fb48bf48",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "day": 50,
+      "compiled": true,
+      "clean": true,
+      "sha256": "401a35a44d90d6411ff27b2d8027b885df7a8cff20beefaed0ea0291a1a9d4bd",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "day": 51,
+      "compiled": true,
+      "clean": true,
+      "sha256": "6c65286f4be9bff8f63cd9ca2b251b26c36f6ff5c4e54238858c18a843a08c2d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "day": 52,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d5642d1f517c0c242be54ec379bd713b086f75c1a73121462850dab2a09afc2e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "day": 53,
+      "compiled": true,
+      "clean": true,
+      "sha256": "91fac323a86bcd3f01bb32838e04aa6a9e8612300e8b8bd5ea8019da372c997a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "day": 54,
+      "compiled": true,
+      "clean": true,
+      "sha256": "25b2417712e1de8ebcfe91e8b4c0224b99e7ed3d28e2e8d2d146770b006a8894",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "day": 55,
+      "compiled": true,
+      "clean": true,
+      "sha256": "220b0e5229f4da7fdb57f6e5ef84af2a9c5def051b44e25e9124e793338cc9aa",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "day": 56,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d27368de89bf09fdd3e3d30166a2152e51ac6453543fac842f794b2e9e17683e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "day": 57,
+      "compiled": true,
+      "clean": true,
+      "sha256": "76cd89595f3fd998671f1b687ce4254f2fb11722e81ad1667caae2232bbd0757",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 4,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "day": 58,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fbf70ed986957030c6aa6f102fe6a507c3b13240665e2d39758bc73c9c378b12",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "day": 59,
+      "compiled": true,
+      "clean": true,
+      "sha256": "de0adcc40038e4eeda2dbec289269e5883c24182ccd6b9895db7d6b33c3a3a61",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "day": 60,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0e5858086af957e462cd29b8db6c2377d47d914709ad7cc4bbd62c473fe14511",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "day": 61,
+      "compiled": true,
+      "clean": true,
+      "sha256": "2649a64bd4e9e16854a7540ee7c641dab8ff0480e3f34a436dbeb3fc1c64a0fd",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "day": 62,
+      "compiled": true,
+      "clean": true,
+      "sha256": "9ea9ae044ce9ca8111d567a5a9038672afcf78d8a21e7dba771871ea5e8276d5",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "day": 63,
+      "compiled": true,
+      "clean": true,
+      "sha256": "332251e7eed689111dfbc3a12214e73d00de16d281e6b45b080675fed0105d36",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "day": 64,
+      "compiled": true,
+      "clean": true,
+      "sha256": "acbfec0d9f86ae67c6a01f91525bf99cdf858a5705da2fec8661e8e3bc8dde82",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "day": 65,
+      "compiled": true,
+      "clean": true,
+      "sha256": "5b71a614d74dbbb298ab9a074ae755b48208ee40cacc1dd3225728bb58d9c9da",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "day": 66,
+      "compiled": true,
+      "clean": true,
+      "sha256": "1812b3ab62f71330b16cd87e1d30759713b3382918afae2d60a5b29fbe2fdab3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "day": 67,
+      "compiled": true,
+      "clean": true,
+      "sha256": "3a59b118a571dddce5926eff3e416c741a6a5c996a76e7f7694a56c90b441e38",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "day": 68,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fbacaeaecbf67d745622d1bbfde8b953fc032687f2c6ca4d9ec5d6f241ff4236",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "day": 69,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e9803f3b6354a3001a563b4f32e2b400c6de80d548e154531e7b229b246f8c0e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "day": 70,
+      "compiled": true,
+      "clean": true,
+      "sha256": "3728f5c91e48028358a7c7153247c5ef9c298b8bac8bc4c7ef5dbb237bc292a0",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "I Am Trying To Build Logic",
+              "actual": "I Am Trying To Build Logic.\r\n"
+            }
+          }
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "sample",
+          "index": 3,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "day": 71,
+      "compiled": true,
+      "clean": true,
+      "sha256": "a8c587e0b61ada96d8964f09ad542d70d1874778915ad710b70833404d21205c",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "day": 72,
+      "compiled": true,
+      "clean": true,
+      "sha256": "aa5af90983847c0689858827566ab7ecb4f1cee506c2d3c2dae19829f12a0a6f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "day": 73,
+      "compiled": true,
+      "clean": true,
+      "sha256": "32fcb1c74c4093638a28bc6cba640cb926fb19a8914d6470e4a59f7a3b187d5a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "failed",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "Characters: 31\nWords: 5\nLines: 2",
+              "actual": "Characters: 33\r\nWords: 6\r\nLines: 2\r\n"
+            }
+          }
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "day": 74,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fec4bd9f086013fed230611605752f8a5dfcc65e3fa28bcefadd583f7f305d2f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "day": 75,
+      "compiled": true,
+      "clean": true,
+      "sha256": "b3be7c0513f66b71fcbd71c7b47c9ac5fe8dfc3e02891cf5af1886893dc65d8e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "day": 76,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e0706639481c6acfbe04f76698ab1677d425f12d683abae75380024ba208f327",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "untested",
+          "exit": 0,
+          "differences": {
+            "stdout": {
+              "expected": "File opened successfully.\n(Displays file content)",
+              "actual": "File opened successfully.\r\nFixture text"
+            }
+          },
+          "reason": "The example gives no file bytes and uses a prose placeholder for the displayed content. A representative file was opened."
+        },
+        {
+          "group": "sample",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "day": 77,
+      "compiled": true,
+      "clean": true,
+      "sha256": "9ba6f07c4fdcd5604e1fd6706342f1119eee84ef4592dc0bfe0e2109eb527483",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "day": 78,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0a2b659393edf74cf2452ed4780070a6d597c421c480d3a5e3fef3301466907b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "day": 79,
+      "compiled": true,
+      "clean": true,
+      "sha256": "7d3aedaa8f4b4b9002c740125854c9ab33c874a6f54dc1f9eaeb997d75e9e11f",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "day": 80,
+      "compiled": true,
+      "clean": true,
+      "sha256": "b42a3e56852c4cbb92d4e896c6727506be16047bd7c041fd79c789d2ed4ebd37",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "day": 81,
+      "compiled": true,
+      "clean": true,
+      "sha256": "c2ff79d4c738755f7e8262db3f656d81ccfdb162b4c1b18c47aea0a8887bf741",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "day": 82,
+      "compiled": true,
+      "clean": true,
+      "sha256": "99b16c1cd36f590c08725555010b5378bd4541aeaf5d10b10b165e9ce7695b92",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "day": 83,
+      "compiled": true,
+      "clean": true,
+      "sha256": "ffa894955a9616a312cac4135dcd8bb8388b8f8b00f87f60e4dd1d95f9fde1db",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "day": 84,
+      "compiled": true,
+      "clean": true,
+      "sha256": "4258fafcddc7e4686f8d6bf14aee5e9957307bc1d95d16cb8424b71f322b9561",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "day": 85,
+      "compiled": true,
+      "clean": true,
+      "sha256": "de9fa4c007c5b07e53c413eeb707520b4f3d498822fce862d56272ecc1ffab3a",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "day": 86,
+      "compiled": true,
+      "clean": true,
+      "sha256": "38287cd387b44a1ef0b449920f4480e8eac6abfc3ab60bbeb1f5980001895c37",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "day": 87,
+      "compiled": true,
+      "clean": true,
+      "sha256": "22baa3c6ecf14d3fe4b686e76d80266e04ed648fececcdbac89303d8ce585ef3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "day": 88,
+      "compiled": true,
+      "clean": true,
+      "sha256": "0bc3c09d77ddba494a22177a27ce0b29cd0e11d8eb0a859691eb4b6d3016a3c6",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "day": 89,
+      "compiled": true,
+      "clean": true,
+      "sha256": "fc0e70c42f8d5d5c0f194944c83efae9f3a5d1d930b324c4b14e43481249b15e",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "day": 90,
+      "compiled": true,
+      "clean": true,
+      "sha256": "d54735da4de8be9cbf13e2b1c345afb086214e5013605964953df66eb1320a68",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 2,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "day": 91,
+      "compiled": true,
+      "clean": true,
+      "sha256": "363783e710f929530b14135390f4ddab9db0f95036459ae615a05f6eea0893a3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "day": 92,
+      "compiled": true,
+      "clean": true,
+      "sha256": "3eea326a2a604b62ecac74695f30c0f8730ee697f1a6d75f87ea71b4c01522a3",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "untested",
+          "exit": 1,
+          "differences": {
+            "stdout": {
+              "expected": "Tabular list of all 5 students with their details",
+              "actual": ""
+            }
+          },
+          "reason": "The source supplies no five records or expected table cells. Its literal description was attempted. The additional case checks a complete table."
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "day": 93,
+      "compiled": true,
+      "clean": true,
+      "sha256": "f1c1fa0fea4c625a291009775d8ed348644d3786b50efa3c9177534115064f50",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "day": 94,
+      "compiled": true,
+      "clean": true,
+      "sha256": "742851f782d2cdfcd809011982fc5dbf3fea816ced1d0ee39445759131f0b50b",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "day": 95,
+      "compiled": true,
+      "clean": true,
+      "sha256": "be7a72dd16041aefa35071910d9697da437f8e052bc59d31e27bf2147d551c3d",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "day": 96,
+      "compiled": true,
+      "clean": true,
+      "sha256": "e18b5582defd36f4b989d949687fd67c15fbbecaab8e7133b6586ba053a0c107",
+      "diagnostics": "",
+      "cases": [
+        {
+          "group": "sample",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        },
+        {
+          "group": "extra",
+          "index": 1,
+          "status": "passed",
+          "exit": 0,
+          "differences": {}
+        }
+      ]
+    }
+  ]
+}
